@@ -11,6 +11,8 @@ Ruby 2.3.0
 git clone git@github.com:ogasawaraShinnosuke/sps.git
 cd sps
 bundle install
+gem install sinatra
+gem install sinatra-contrib
 ruby main.rb
 open localhost:4567
 ```

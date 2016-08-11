@@ -2,6 +2,8 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'active_support/all'
 
+OBJECTS = ['# Politics','# Economics','# Society','# Technology']
+
 get '/' do
   erb :index
 end
