@@ -52,6 +52,8 @@ result.blank? ? "" : """
 </div>"""
 end
 
+# API
+
 =begin
 curl -F "section_1_result_id=# PEST
 # Politics
@@ -88,6 +90,8 @@ post '/pest' do
   param = params[:section_1_result_id]
   pest(param) unless param.blank?
 end
+
+# Client Routes
 
 post '/pest_index' do
   param = params[:section_1_result_id]

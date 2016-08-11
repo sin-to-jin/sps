@@ -3,7 +3,7 @@ Simple Parse Serviceの略語であり，ビジネスフレームワークの記
 APIとしても利用できるが，このライブラリは[MIT License](https://github.com/ogasawaraShinnosuke/sps/blob/master/LICENSE)です．
 
 ## Language
-Ruby 2.3.0
+Ruby 2.3.1
 
 ## Get Started
 
